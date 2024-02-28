@@ -1,0 +1,32 @@
+﻿
+@page "/lista";
+@using AppPessoa.Models;
+@using AppPessoa.Services;
+@inject PessoaService pessoaService;
+
+<h3>Pessoas Cadastradas</h3>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Cpf</th>
+            <th>DataNascimento</th>
+            <th>Telefone</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in )
+        {
+            <tr>
+                <td>@item.Id</td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+
+}
