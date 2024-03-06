@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Components.Web;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Adiciona serviços ao Container. A cada novo serviço criado, é necessário passar aqui com o AddScoped<Serviço>() e o AddSingleton<ContextodeBanco>()
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
@@ -15,7 +15,7 @@ builder.Services.AddSingleton<ContextoBD>(); // Conecta à base de dados
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Configura a página de Requisições de HTTP
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");

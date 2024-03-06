@@ -1,4 +1,6 @@
-﻿using AppPessoa.Models;
+﻿// Essa classe cria a conexão com o Banco de Dados, requerendo uma Pessoa para passar para ele também
+
+using AppPessoa.Models;
 
 namespace AppPessoa.Contexto
 {
