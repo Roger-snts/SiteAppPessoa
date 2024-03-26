@@ -1,11 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Contexto",
-    "\\Models",
     "\\Pages",
     "\\Services"
   ],
-  "SelectedNode": "\\Pages\\Lista.razor",
+  "SelectedNode": "\\Pages\\Cadastro.razor",
   "PreviewInSolutionExplorer": false
 }
